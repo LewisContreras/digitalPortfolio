@@ -10,7 +10,7 @@ import Projects from './components/Projects';
 import Services from './components/Services';
 import Banner from './components/Banner';
 import Footer from './components/Footer';
-import Form from './components/Form';
+import FormMessage from './components/FormMessage';
 
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
           <Projects></Projects>
           <Services></Services>
           <Banner></Banner>
-          <Form></Form>
+          <FormMessage></FormMessage>
           <Footer></Footer>
     </ChakraProvider>
   );
