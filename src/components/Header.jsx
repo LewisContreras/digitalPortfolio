@@ -25,12 +25,11 @@ function Header() {
                         </MenuList>
                     </Menu>
                     </Box>
-                <Text as="p" fontWeight="extrabold" mr={4} >LOGO</Text>
                 <HStack display={["none", "none", "contents"]} listStyleType="none" spacing={7}>
-                    <li><Link href="#welcome">Hola</Link></li>
-                    <li><Link href="#projects">Proyectos</Link></li>
-                    <li><Link href="#services">Servicios</Link></li>
-                    <li><Link href="#contact">Contacto</Link></li>
+                    <Link href="#welcome">Hola</Link>
+                    <Link href="#projects">Proyectos</Link>
+                    <Link href="#services">Servicios</Link>
+                    <Link href="#contact">Contacto</Link>
                 </HStack>
                 </Flex>
             <Box as="article">

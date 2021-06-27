@@ -6,7 +6,7 @@ import { FaArrowRight } from 'react-icons/fa'
 
 function Services() {
     return (
-        <Box as="section" id="services" bgColor="gray.300" >
+        <Box w="100vw" as="section" id="services" bgColor="gray.300" >
             <Box maxW={["98%", "98%","90%", "90%"]} mx="auto" py={["20px", "80px", "125px"]}>
                 <Text fontWeight="semibold" fontSize="3xl" >Servicios</Text>
                 <Flex py={10} flexDirection={["column", "row", "row"]} justifyContent="space-between"   alignItems="center">

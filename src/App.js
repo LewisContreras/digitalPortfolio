@@ -1,9 +1,5 @@
 import React from 'react';
-import {
-  ChakraProvider,
-  CSSReset,
-  theme
-} from '@chakra-ui/react';
+import {ChakraProvider} from '@chakra-ui/react';
 import Header from './components/Header';
 import Welcome from './components/Welcome';
 import Projects from './components/Projects';
@@ -15,13 +11,12 @@ import FormMessage from './components/FormMessage';
 
 function App() {
   return (
-    <ChakraProvider theme={theme}>
-          <CSSReset/>
+    <ChakraProvider>
           <Header></Header>
           <Welcome></Welcome>
           <Projects></Projects>
           <Services></Services>
-          <Banner></Banner>
+          {/* <Banner></Banner> */}
           <FormMessage></FormMessage>
           <Footer></Footer>
     </ChakraProvider>

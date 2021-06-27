@@ -6,10 +6,10 @@ import { FaArrowRight } from 'react-icons/fa'
 
 function Projects() {
     return (
-        <Box  as="section" id="projects" maxW="100vw" bg="teal.400" py={10}>
+        <Box  as="section" id="projects" w="100vw" bg="teal.400" py={10}>
             <Grid gridTemplateColumns={["1fr", "1fr 1fr"]}  templateRows={["1fr 1fr 3fr 3fr 3fr", "100px 400px 300px"]} maxW="90%" mx="auto" gap={7} >
-                <GridItem fontSize={["3xl", "2xl", "3xl"]} >Parece magia, funciona con codigo</GridItem>
-                <GridItem>A lo largo de mi carrera como Frontend, he tenido el privilegio de trabajar en proyectos retadores e increíbles.</GridItem>
+                <GridItem fontWeight="600" fontSize={["3xl", "2xl", "3xl"]} color="teal.900" >Parece magia, funciona con código</GridItem>
+                <GridItem fontWeight="400" fontSize="18px" >A lo largo de mi carrera como Frontend, he tenido el privilegio de trabajar en proyectos retadores e increíbles.</GridItem>
                 <GridItem colSpan={[1,2]} bgImg="url('https://i.imgur.com/6yXz4Kk.png')" backgroundPosition="center" backgroundRepeat="no-repeat" backgroundSize="cover" display="flex" alignItems="center" >
                     <Box padding="10px 50px 0 10px" bgColor="teal.800" height="70%" maxW="90%" flexBasis="500px" position="relative" right={3} >
                     <Text fontSize="2xl" fontWeight="bold" color="whiteAlpha.800" >Principe Fresco</Text>
@@ -42,7 +42,7 @@ function Projects() {
                 </GridItem>
             </Grid>
             <Box textAlign="center" pt={8}>
-                <Link href="https://github.com/LewisContreras" textDecoration="none" isExternal >
+                <Link href="https://github.com/LewisContreras" textDecoration="none" _hover={{textDecoration:"none"}} isExternal >
                     <Button display="flex" alignItems="center" mx="auto" colorScheme="teal" bg="teal.700" color="whiteAlpha.700" textDecoration="none" > Ver más proyectos<Icon ml={2}  as={FaArrowRight} /></Button>
                 </Link>
             </Box>
